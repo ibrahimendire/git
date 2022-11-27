@@ -1,0 +1,14 @@
+body {
+    background-image: url("3.jpg");
+  
+    margin-left: 100px;
+
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  p{
+    color: rgb(13, 39, 233);
+    font-size: x-large;
+
+    border: 3px solid green;
+  }

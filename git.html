@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Q&A</title>
+    <link href="Style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <h1>git Questions & Answers</h1>
+    <h5>https://www.elearning.cloudsheger.com/</h5>
+
+    <h2>1, What is git?</h2>
+
+    <p id="1" onclick="myFunction1()">Click for Answer</p>
+    <script>
+        function myFunction1() {
+            document.getElementById("1").innerHTML = "Distributed version control software.";
+        }
+    </script>
+
+
+    <h2>2, What is a local git repository?</h2>
+    
+
+    <p id="2" onclick="myFunction2()">Click for Answer</p>
+    <script>
+        function myFunction2() {
+            document.getElementById("2").innerHTML = "A git repository that lives on your local computer. <br> Development happens in local git repositories.";
+        }
+    </script>
+
+    <h2>3, What is a remote git repository?</h2>
+
+
+    <p id="3" onclick="myFunction3()">Click for Answer</p>
+    <script>
+        function myFunction3() {
+            document.getElementById("3").innerHTML = "A git repository that lives on a team accessible remote server.<br> Code sharing and collaboration happens in remote git repositories.<br>Many remote git repos are hosted by Git hosting organizations like GitHub, Gitlab, or Bitbucket.";
+        }
+    </script>
+
+    <h2>4, When changes (commits) are made to a local repo how can the remote repo be updated?</h2>
+    
+
+    <p id="4" onclick="myFunction4()">Click for Answer</p>
+    <script>
+        function myFunction4() {
+            document.getElementById("4").innerHTML = "git push";
+        }
+    </script>
+
+    <h2>5, When changes (commits) are made to a remote repo how can the local repo be updated?</h2>
+
+
+    <p id="5" onclick="myFunction5()">Click for Answer</p>
+    <script>
+        function myFunction5() {
+            document.getElementById("5").innerHTML = "git pull";
+        }
+    </script>
+
+    <h2>6, What is the command to create a new local git repository from an existing directory?</h2>
+
+
+    <p id="6" onclick="myFunction6()">Click for Answer</p>
+    <script>
+        function myFunction6() {
+            document.getElementById("6").innerHTML = "git init";
+        }
+    </script>
+
+    <h2>7, How can a new remote repository be created?</h2>
+
+
+    <p id="7" onclick="myFunction7()">Click for Answer</p>
+    <script>
+        function myFunction7() {
+            document.getElementById("7").innerHTML = "It varies by Git Remote repo manager (GitHub, Gitlab, BitBucket), but usually consists of working through a Web based GUI to name and create a new remote repo.";
+        }
+    </script>
+    <h2>8, What is the command to add a remote repo to a local repo?</h2>
+    
+
+    <p id="8" onclick="myFunction8()">Click for Answer</p>
+    <script>
+        function myFunction8() {
+            document.getElementById("8").innerHTML = "git remote add [remote-name] [remote-URI]";
+        }
+    </script>
+    <h2>9, What are the steps of the basic git workflow?</h2>
+    
+
+    <p id="9" onclick="myFunction9()">Click for Answer</p>
+    <script>
+        function myFunction9() {
+            document.getElementById("9").innerHTML = "1, stage <br>2, commit <br>3, push <br> <br> git add files-to-be-committed <br>git commit -m \"commit message title\" -m \"commit message body\" <br>git push";
+        }
+    </script>
+    <h2>10, What is forking a remote repository?</h2>
+   
+
+    <p id="10"onclick="myFunction10()">Click for Answer</p>
+    <script>
+        function myFunction10() {
+            document.getElementById("10").innerHTML = "Creating a copy of a remote repository you don’t control to a remote repository you do control. <br> The forked relationship allows you make changes to your remote repo and suggest them as changes to the remote repo you don’t control.";
+        }
+    </script>
+
+    <h2>11, How do you fork a remote repository?</h2>
+
+
+    <p id="11" onclick="myFunction11()">Click for Answer</p>
+    <script>
+        function myFunction11() {
+            document.getElementById("11").innerHTML = "It varies by Git remote repo manager, but usually there is a fork button and web GUI to guide the process.";
+        }
+    </script>
+
+    <h2>12, What is cloning a remote repository?</h2>
+
+
+    <p id="12" onclick="myFunction12()">Click for Answer</p>
+    <script>
+        function myFunction12() {
+            document.getElementById("12").innerHTML = "Cloning a remote repo creates a brand new directory and local git repo onto your local computer from the existing remote repo.<br>In addition to copying all repo files (including the .git folder) it automatically adds a new remote to the local repo using the URI of the cloned location.";
+        }
+    </script>
+
+    <h2>13, How do you clone a remote repository?</h2>
+
+
+    <p id="13" onclick="myFunction13()">Click for Answer</p>
+    <script>
+        function myFunction13() {
+            document.getElementById("13").innerHTML = "git clone [remote-repo-URI]";
+        }
+    </script>
+
+    <h2>14, What is a branch?</h2>
+
+
+    <p id="14" onclick="myFunction14()">Click for Answer</p>
+    <script>
+        function myFunction14() {
+            document.getElementById("14").innerHTML = "A branch is an independent line of development. <br>A new branch is a copy of an existing branch with the full set of files, and history. Changes can be made to files and new commits can be added without altering the files or history of the original branch.<br> <br>This gives you the ability to add new work in a safe environment.";
+        }
+    </script>
+
+    <h2>15, What is the command to create a new branch?</h2>
+
+
+    <p id="15" onclick="myFunction15()">Click for Answer</p>
+    <script>
+        function myFunction15() {
+            document.getElementById("15").innerHTML = "git branch [new-branch-name]";
+        }
+    </script>
+
+    <h2>16, What is the command to change into an existing branch?</h2>
+
+
+    <p id="16" onclick="myFunction16()">Click for Answer</p>
+    <script>
+        function myFunction16() {
+            document.getElementById("16").innerHTML = "git checkout [existing-branch-name]";
+        }
+    </script>
+
+    <h2>17, What is the command to both create and change into a new branch?</h2>
+
+
+    <p id="17" onclick="myFunction17()">Click for Answer</p>
+    <script>
+        function myFunction17() {
+            document.getElementById("17").innerHTML = "git checkout -b [new-branch-name]";
+        }
+    </script>
+
+    <h2>18, What is a merge?</h2>
+
+
+    <p id="18" onclick="myFunction18()">Click for Answer</p>
+    <script>
+        function myFunction18() {
+            document.getElementById("18").innerHTML = "A merge is a combination of two branches. <br>The files and histories need to be merged together so file changes and histories can be combined as the new history of the project.";
+        }
+    </script>
+
+    <h2>19, What is a merge conflict?</h2>
+
+
+    <p id="19" onclick="myFunction19()">Click for Answer</p>
+    <script>
+        function myFunction19() {
+            document.getElementById("19").innerHTML = "A merge conflict is when two merging branches have conflicting information between the contents of a file.<br>Both branches would have to change the same line of the same file in different ways to create a conflict.<br>Conflicts must be manually resolved before the merge can be considered complete.";
+        }
+    </script>
+
+    <h2>20, Which version control system can work offline or with no network connection?</h2>
+ 
+
+    <p id="20" onclick="myFunction20()">Click for Answer</p>
+    <script>
+        function myFunction20() {
+            document.getElementById("20").innerHTML = "git";
+        }
+    </script>
+
+
+</body>
+
+</html>
